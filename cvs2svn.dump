@@ -1,0 +1,81 @@
+SVN-fs-dump-format-version: 2
+
+Revision-number: 1
+Prop-content-length: 126
+Content-length: 126
+
+K 8
+svn:date
+V 27
+2017-06-18T08:10:11.000000Z
+K 7
+svn:log
+V 52
+Standard project directories initialized by cvs2svn.
+PROPS-END
+
+Node-path: trunk
+Node-kind: dir
+Node-action: add
+
+
+Node-path: branches
+Node-kind: dir
+Node-action: add
+
+
+Node-path: tags
+Node-kind: dir
+Node-action: add
+
+
+Revision-number: 2
+Prop-content-length: 105
+Content-length: 105
+
+K 10
+svn:author
+V 4
+user
+K 8
+svn:date
+V 27
+2017-06-18T08:10:11.000000Z
+K 7
+svn:log
+V 7
+myrepo
+
+PROPS-END
+
+Node-path: trunk/sample.txt
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 0
+Text-content-md5: d41d8cd98f00b204e9800998ecf8427e
+Content-length: 10
+
+PROPS-END
+
+
+Revision-number: 3
+Prop-content-length: 136
+Content-length: 136
+
+K 8
+svn:date
+V 27
+2017-06-18T08:10:12.000000Z
+K 7
+svn:log
+V 62
+This commit was manufactured by cvs2svn to create tag 'start'.
+PROPS-END
+
+Node-path: tags/start
+Node-kind: dir
+Node-action: add
+Node-copyfrom-rev: 2
+Node-copyfrom-path: trunk
+
